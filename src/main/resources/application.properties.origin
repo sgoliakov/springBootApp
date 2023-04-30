@@ -1,0 +1,15 @@
+server.port=8080
+hello=hi everybody
+# (Data source)
+spring.datasource.driver-class-name=
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+# Hibernate
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+spring.jpa.properties.hibernate.show_sql=true
+spring.jpa.properties.hibernate.hbm2ddl.auto=update
+spring.jpa.properties.hibernate.current.session.context.class=org.springframework.orm.hibernate6.SpringSessionContext
+#HTTP method put, patch, delete
+spring.mvc.hiddenmethod.filter.enabled=true
+
